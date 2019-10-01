@@ -3,9 +3,12 @@
 
 ## Install
 ``` shell
+cd backend
 go get -u -v google.golang.org/grpc
-brew install protobuf
 go get -u github.com/golang/protobuf/protoc-gen-go
+
+cd grpc-web-sample
+brew install protobuf
 sh grpc-plugin-install.sh
 ```
 

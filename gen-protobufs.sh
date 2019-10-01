@@ -1,7 +1,7 @@
 #!/bin/sh
 
-CLIENT_OUTDIR=frontend/grpc/
-SERVER_OUTPUT_DIR=backend/grpc
+CLIENT_OUTDIR=frontend/grpc/helloworld
+SERVER_OUTPUT_DIR=backend/grpc/helloworld
 
 mkdir -p ${CLIENT_OUTDIR} ${SERVER_OUTPUT_DIR}
 
